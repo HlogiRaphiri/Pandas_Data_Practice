@@ -1,0 +1,26 @@
+Pandas Practice Questions
+
+1. Read CSV: How do you load the dataset student_performance_dataset.csv into a Pandas DataFrame?
+2. View data: Which function shows the first 5 rows of the DataFrame?
+3. Column selection: How do you select only the Student_Name and Final_Score columns?
+4. Summary statistics: How do you calculate the average Study_Hours across all students?
+5. Filtering rows: How do you find students who studied more than 15 hours?
+6. Sorting: How do you sort the DataFrame by Final_Score in descending order?
+7. GroupBy: How do you calculate the average Final_Score grouped by Attendance_Pct?
+8. New column: How do you add a new column called Score_Improvement that is Final_Score - Previous_Score?
+9. Missing values: Which function checks if there are any missing values in the dataset?
+10. Export data: How do you save the DataFrame back into a new CSV file called processed_students.csv?
+
+
+Pandas Practice Questions (Set 2)
+
+11. Shape & size: How do you find the number of rows and columns in the DataFrame?
+12. Data types: Which attribute or function shows the data type of each column?
+13. Unique values: How do you list all the unique values in the Attendance_Pct column?
+14. Value counts: How do you count how many students fall into each Grade category?
+15. Rename columns: How do you rename the column Final_Score to FinalScore?
+16. Multiple conditions: How do you find students who studied more than 15 hours and scored above 80 in Final_Score?
+17. Fill missing values: How do you replace all missing values in Previous_Score with the column's average?
+18. Apply function: How do you create a new column Pass_Status that shows "Pass" if Final_Score >= 50, otherwise "Fail"?
+19. Aggregation: How do you calculate the maximum, minimum, and mean of Study_Hours in a single command?
+20. Drop duplicates: How do you remove duplicate rows based on the Student_Name column?
